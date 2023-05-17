@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // connection string of moongodb atlas
-mongoose.connect(`${process.env.MONGO_URI}/ers`);
+mongoose.connect(process.env.MONGO_URI);
 
 const db = mongoose.connection;
 
