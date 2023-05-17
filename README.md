@@ -59,7 +59,7 @@ NodeJS , Express, MongoDB , EJS as templates , JavaScript , HTML, CSS
   ## Employee List
 
 ### Folder Structure
-
+```
 Employee Review System
     |
     |               |--->css
@@ -100,3 +100,4 @@ Employee Review System
     |--> index.js
     |--> package-lock.json
     |-->package.json
+```
